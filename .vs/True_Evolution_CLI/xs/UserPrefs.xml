@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{C012C059-876C-4E7F-9605-010FB69990C8}|Default">
+  <MonoDevelop.Ide.ItemProperties.True__Evolution__CLI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="True_Evolution_CLI/Program.cs">
+    <Files>
+      <File FileName="True_Evolution_CLI/Program.cs" Line="259" Column="82" />
+      <File FileName="True_Evolution_CLI/Animal.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="True_Evolution_CLI" expanded="True">
+            <Node name="True_Evolution_CLI" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

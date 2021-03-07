@@ -1,0 +1,12 @@
+/Users/hugosundberg/Projects/True_Evolution_CLI/True_Evolution_CLI/bin/Debug/netcoreapp3.1/True_Evolution_CLI.deps.json
+/Users/hugosundberg/Projects/True_Evolution_CLI/True_Evolution_CLI/bin/Debug/netcoreapp3.1/True_Evolution_CLI.runtimeconfig.json
+/Users/hugosundberg/Projects/True_Evolution_CLI/True_Evolution_CLI/bin/Debug/netcoreapp3.1/True_Evolution_CLI.runtimeconfig.dev.json
+/Users/hugosundberg/Projects/True_Evolution_CLI/True_Evolution_CLI/bin/Debug/netcoreapp3.1/True_Evolution_CLI.dll
+/Users/hugosundberg/Projects/True_Evolution_CLI/True_Evolution_CLI/bin/Debug/netcoreapp3.1/True_Evolution_CLI.pdb
+/Users/hugosundberg/Projects/True_Evolution_CLI/True_Evolution_CLI/obj/Debug/netcoreapp3.1/True_Evolution_CLI.csprojAssemblyReference.cache
+/Users/hugosundberg/Projects/True_Evolution_CLI/True_Evolution_CLI/obj/Debug/netcoreapp3.1/True_Evolution_CLI.AssemblyInfoInputs.cache
+/Users/hugosundberg/Projects/True_Evolution_CLI/True_Evolution_CLI/obj/Debug/netcoreapp3.1/True_Evolution_CLI.AssemblyInfo.cs
+/Users/hugosundberg/Projects/True_Evolution_CLI/True_Evolution_CLI/obj/Debug/netcoreapp3.1/True_Evolution_CLI.csproj.CoreCompileInputs.cache
+/Users/hugosundberg/Projects/True_Evolution_CLI/True_Evolution_CLI/obj/Debug/netcoreapp3.1/True_Evolution_CLI.dll
+/Users/hugosundberg/Projects/True_Evolution_CLI/True_Evolution_CLI/obj/Debug/netcoreapp3.1/True_Evolution_CLI.pdb
+/Users/hugosundberg/Projects/True_Evolution_CLI/True_Evolution_CLI/obj/Debug/netcoreapp3.1/True_Evolution_CLI.genruntimeconfig.cache
