@@ -4,15 +4,13 @@ using System.Threading;
 namespace True_Evolution_CLI
 {
     class Program
-    {
-        static bool gameStarted = false;
+    {        
         static Animal playerAnimal;
 
         static void Start(string startMessage)
         {
             Console.WriteLine("Press any key to start new world");
-            Console.ReadKey(true);
-            gameStarted = true;
+            Console.ReadKey(true);            
             playerAnimal = new Animal(10, 10, 2, "Squi", "rrel", true, 0, 5);
             Console.WriteLine($"\n{startMessage}");
         }
