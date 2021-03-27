@@ -59,7 +59,8 @@ namespace True_Evolution_CLI
             if (chance == 1)
             {
                 Console.WriteLine($"{playerAnimal.GetName()} has been born. This is now your main animal\n it has inherited health from {playerAnimalPreviousName} and damage from {animalName}");
-            } else if (chance == 0)
+            }
+            else if (chance == 0)
             {
                 Console.WriteLine($"{playerAnimal.GetName()} has been born. This is now your main animal\n it has inherited health from {animalName} and damage from {playerAnimalPreviousName}");
             }
@@ -107,6 +108,7 @@ namespace True_Evolution_CLI
             {
                 Console.WriteLine($"Trip. You tripped and dealt no damage\n");
             }
+            
             if (multiplyer == 1)
             {
                 if (animal.health <= 0)
@@ -139,6 +141,7 @@ namespace True_Evolution_CLI
                     Console.WriteLine($"Critical hit! You hit {animal.GetName()} with {multiplyer * playerAnimal.damage}. {animal.GetName()} has {animal.health} health left.\n");
                 }
             }
+
             if (animal.health <= 0)
             {
                 Thread.Sleep(1500);
@@ -205,18 +208,18 @@ namespace True_Evolution_CLI
             Console.WriteLine($"Damage: {animal.damage}");
             Thread.Sleep(100);
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine($"Charisma: {animal.charisma}");
+            Console.WriteLine($"Anger: {animal.angryLevel}");
             Thread.Sleep(100);
             Console.ForegroundColor = ConsoleColor.Gray;
             Console.WriteLine("(Anger will decrease your chances when paying respect or mating.");
             Console.ForegroundColor = ConsoleColor.White;
 
             //Console.WriteLine($"{}Health: {playerAnimal.health}, Damage: {playerAnimal.damage}, Charisma: {playerAnimal.charisma} (Charisma will increase your chances when paying respect or mating. Equal anger and charisma will give e 50% success rate)");
-            Thread.Sleep(100);
-            Console.WriteLine($"{animal.GetName()} stats:");
-            Thread.Sleep(100);
-            Console.WriteLine($"Health: {animal.health}, Damage: {animal.damage}, Anger: {animal.angryLevel} (Anger will decrease your chances when paying respect or mating.)");
-            Thread.Sleep(1500);
+            //Thread.Sleep(100);
+            //Console.WriteLine($"{animal.GetName()} stats:");
+            //Thread.Sleep(100);
+            //Console.WriteLine($"Health: {animal.health}, Damage: {animal.damage}, Anger: {animal.angryLevel} (Anger will decrease your chances when paying respect or mating.)");
+            //Thread.Sleep(1500);
             while(animal.health > 0)
             {                
                 Console.ForegroundColor = ConsoleColor.Magenta;
@@ -266,43 +269,26 @@ namespace True_Evolution_CLI
         static void Main()
         {                       
             Start("A new life begins\n");
-            Thread.Sleep(1500);
+            Thread.Sleep(1500);            
             Animal ant = new Animal(1, 1, 2, "An", "t", false, 7);
-            Encounter(ant);
-            Animal bee = new Animal(8, 8, 2, "Be", "e", false, 3);
-            Encounter(bee);
+            Encounter(ant);           
             Animal duck = new Animal(6, 6, 3, "Du", "ck", false, 5);
             Encounter(duck);
             Animal snake = new Animal(2, 2, 5, "Sna", "ke", false, 7);       
             Encounter(snake);
             Animal birb = new Animal(2, 2, 1, "Bi", "rb", false, 1);
-            Encounter(birb);
-            Animal rabbit = new Animal(8, 8, 2, "Rab", "bit", false, 1);
-            Encounter(rabbit);
+            Encounter(birb);           
             Animal doge = new Animal(8, 8, 4, "Do", "ge", false, 1);
             Encounter(doge);
-            Animal rat = new Animal(8, 8, 3, "Ra", "t", false, 8);
-            Encounter(rat);
-            Animal squid = new Animal(10, 10, 3, "Squ", "id", false, 5);
-            Encounter(squid);
-            Animal crab= new Animal(4, 4, 4, "Cr", "ab", false, 4);
-            Encounter(crab);
-            Animal honeybadger = new Animal(16, 16, 3, "Honey", "Badger", false, 1000);
+            Animal honeybadger = new Animal(16, 16, 1, "Honey", "Badger", false, 1000);
             Encounter(honeybadger);
-            Animal GiraffeKing = new Animal(12, 12, 6, "Giraffe", "King", false, 5);
-            Encounter(GiraffeKing);
-            Animal blackwidow = new Animal(2, 2, 100, "Black", "Widow", false, 9);
-            Encounter(blackwidow);
+            Animal spider = new Animal(2, 2, 100, "Spi", "da", false, 9);
+            Encounter(spider);
             Animal kangaroo= new Animal(14, 14, 6, "Kanga", "roo", false, 4);
             Encounter(kangaroo);
             Animal bear = new Animal(16, 16, 5, "Be", "ar", false, 5);
             Encounter(bear);
             Console.WriteLine("Congraulations, you are on top of the foodchain");
-
-
-
-
-
         }
     }
 }
